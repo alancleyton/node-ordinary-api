@@ -1,9 +1,13 @@
-import { createServer } from 'http';
+import express, { type Request, type Response } from 'express';
 
-const server = createServer((request, response) => {
-  response.end('Hello world!');
+const PORT = 3000;
+
+const server = express();
+
+server.get('/', (req: Request, res: Response) => {
+  res.json({ msg: 'Hello World ' });
 });
 
-server.listen(3000, () => {
-  console.log('server is running on http://localhost:3000');
+server.listen(PORT, () => {
+  console.log(`server is runing on: http://localhost:${PORT}`);
 });
