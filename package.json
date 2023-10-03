@@ -1,0 +1,20 @@
+{
+  "name": "node-ordinary-api",
+  "version": "1.0.0",
+  "author": "Alan Cleyton",
+  "description": "An node simple API with in memory database for study purpose",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alancleyton/node-ordinary-api.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alancleyton/node-ordinary-api/issues"
+  },
+  "homepage": "https://github.com/alancleyton/node-ordinary-api#readme"
+}
