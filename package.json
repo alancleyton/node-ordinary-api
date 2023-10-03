@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/alancleyton/node-ordinary-api/issues"
   },
-  "homepage": "https://github.com/alancleyton/node-ordinary-api#readme"
+  "homepage": "https://github.com/alancleyton/node-ordinary-api#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
